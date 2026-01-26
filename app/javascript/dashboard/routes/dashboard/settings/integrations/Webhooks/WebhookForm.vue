@@ -16,6 +16,7 @@ const SUPPORTED_WEBHOOK_EVENTS = [
   'webwidget_triggered',
   'contact_created',
   'contact_updated',
+  'contact_send_to_odoo',
   'conversation_typing_on',
   'conversation_typing_off',
 ];

@@ -1,4 +1,5 @@
 <script>
+/* global axios */
 import { mapGetters } from 'vuex';
 import { useAlert } from 'dashboard/composables';
 import { dynamicTime } from 'shared/helpers/timeHelper';
@@ -50,6 +51,14 @@ export default {
   },
   data() {
     return {
+      comment: '',
+      odoos: [],
+      agents: [],
+      selectedOdoo: '',
+      selectedAgent: '',
+      sendedToOdoo: false,
+      loadingOdoo: false,
+      currentContactId: null,
       showEditModal: false,
       showMergeModal: false,
       showDeleteModal: false,
@@ -62,6 +71,9 @@ export default {
     },
     additionalAttributes() {
       return this.contact.additional_attributes || {};
+    },
+    canSendOdoo() {
+      return this.selectedOdoo && this.selectedAgent;
     },
     location() {
       const {
@@ -161,8 +173,8 @@ export default {
         }
       } catch (error) {
         useAlert(
-          error.message
-            ? error.message
+          error.response?.data?.message
+            ? error.response?.data?.message
             : this.$t('DELETE_CONTACT.API.ERROR_MESSAGE')
         );
       }
@@ -172,6 +184,93 @@ export default {
     },
     openMergeModal() {
       this.showMergeModal = true;
+    },
+    async loadOdooContact() {
+      this.comment = '';
+      this.sendedToOdoo = false;
+      this.currentContactId = this.contact.id;
+      this.loadingOdoo = true;
+      try {
+        this.selectedAgent = '';
+        const { data } = await axios.get('/api/v1/odoo', {
+          params: {
+            list: 'odoo',
+            account_id: this.$route.params.accountId,
+            contact_id: this.contact.id,
+          },
+        });
+        this.odoos = data;
+      } catch (error) {
+        this.sendedToOdoo = true;
+      } finally {
+        this.loadingOdoo = false;
+      }
+    },
+    async changeOdooInstance() {
+      this.selectedAgent = '';
+      this.agents = [];
+      this.getContactList(this.selectedOdoo);
+    },
+    async getContactList(odoo_id) {
+      try {
+        const { data } = await axios.get(`/api/v1/odoo`, {
+          params: {
+            list: 'contact',
+            account_id: 1,
+            odoo_id: odoo_id,
+          },
+        });
+        this.agents = data.result;
+      } catch (error) {
+        useAlert(
+          error.response?.data?.message
+            ? error.response?.data?.message
+            : this.$t('SEND_TO_ODOO.API.ERROR_MESSAGE')
+        );
+      }
+    },
+    async sendToOdoo() {
+      try {
+        if (this.selectedOdoo && this.selectedAgent) {
+          await axios
+            .post(`/api/v1/odoo`, {
+              odoo_id: this.selectedOdoo,
+              agent_id: this.selectedAgent,
+              contact_id: this.contact.id,
+              comment: this.comment,
+            })
+            .then(() => {
+              this.sendedToOdoo = true;
+              this.comment = '';
+            });
+          useAlert('Send to Odoo successfully');
+        } else {
+          useAlert('Please select an Odoo and Agent');
+        }
+      } catch (error) {
+        useAlert(
+          error.response?.data?.message
+            ? error.response?.data?.message
+            : this.$t('SEND_TO_ODOO.API.ERROR_MESSAGE')
+        );
+      }
+    },
+    async sendToOdoo2() {
+      try {
+        await axios.get(`/api/v1/odoo`, {
+          params: {
+            list: 'odoo',
+            account_id: 1,
+            contact_id: 10,
+          },
+        });
+      } catch (error) {
+        useAlert(
+          error.response?.data?.message
+            ? error.response?.data?.message
+            : this.$t('SEND_TO_ODOO.API.ERROR_MESSAGE')
+        );
+      }
     },
   },
 };
@@ -317,6 +416,83 @@ export default {
           :disabled="uiFlags.isDeleting"
           @click="toggleDeleteModal"
         />
+      </div>
+
+      <div v-if="currentContactId != contact.id" class="mt-1">
+        <NextButton
+          slate
+          faded
+          sm
+          label="Odoo Contact"
+          @click="loadOdooContact"
+        />
+      </div>
+
+      <div v-if="currentContactId == contact.id" class="mt-1">
+        <p class="">{{ 'Odoo Contact' }}</p>
+        <div v-if="loadingOdoo">
+          {{ 'Loading...' }}
+        </div>
+        <div v-if="sendedToOdoo && !loadingOdoo">
+          <p>{{ 'Contact already forwarded to Odoo' }}</p>
+        </div>
+        <div v-if="!sendedToOdoo && !loadingOdoo">
+          <select
+            v-model="selectedOdoo"
+            class="border p-2 rounded"
+            placeholder="Select Odoo Instance"
+            @change="changeOdooInstance"
+          >
+            <option value="" disabled selected>
+              {{ 'Select Odoo Instance' }}
+            </option>
+            <option v-for="odoo in odoos" :key="odoo.id" :value="odoo.id">
+              {{ odoo.odoo_name }}
+            </option>
+          </select>
+
+          <select
+            v-model="selectedAgent"
+            :disabled="agents.length <= 0"
+            class="border p-2 rounded"
+            placeholder="Select Agents"
+          >
+            <option value="" disabled selected>{{ 'Select Agents' }}</option>
+            <option v-for="agent in agents" :key="agent.id" :value="agent.id">
+              {{ agent.name }}
+            </option>
+          </select>
+
+          <textarea
+            v-model="comment"
+            class="border p-2 rounded w-full mt-2"
+            placeholder="Comment"
+            rows="3"
+            :disabled="!canSendOdoo"
+          />
+
+          <div class="flex gap-2">
+            <NextButton
+              v-tooltip.top-end="'ส่งไปยัง odoo'"
+              icon="i-ph-share-fat"
+              slate
+              faded
+              sm
+              label="ส่งไปยัง Odoo"
+              :disabled="!canSendOdoo"
+              @click="sendToOdoo"
+            />
+            <NextButton
+              v-tooltip.top-end="'ส่งไปยัง odoo'"
+              icon="i-ph-share-fat"
+              slate
+              faded
+              sm
+              :disabled="uiFlags.isMerging"
+              @click="sendToOdoo2"
+            />
+          </div>
+        </div>
       </div>
       <EditContact
         v-if="showEditModal"
