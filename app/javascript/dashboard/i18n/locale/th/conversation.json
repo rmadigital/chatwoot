@@ -61,7 +61,7 @@
     "UNSUPPORTED_MESSAGE": "This message is unsupported. You can view this message on the Facebook / Instagram app.",
     "UNSUPPORTED_MESSAGE_FACEBOOK": "This message is unsupported. You can view this message on the Facebook Messenger app.",
     "UNSUPPORTED_MESSAGE_INSTAGRAM": "This message is unsupported. You can view this message on the Instagram app.",
-    "SUCCESS_DELETE_MESSAGE": "ลบข้อความสำเร็จเเล้ว",
+    "SUCCESS_DELETE_MESSAGE": "ลบข้อความสำเร็จแล้ว",
     "FAIL_DELETE_MESSSAGE": "ไม่สามารถลบข้อความได้ โปรดลองใหม่อีกครั้ง",
     "NO_RESPONSE": "ไม่มีการตอบกลับ",
     "RESPONSE": "Response",
@@ -202,7 +202,7 @@
       "TIP_AUDIORECORDER_ICON": "บันทึกเสียง",
       "TIP_AUDIORECORDER_PERMISSION": "ให้สิทธิ์เข้าถึงการใช้งานเสียง",
       "TIP_AUDIORECORDER_ERROR": "ไม่สามารถเปิดการใช้งานเสียงได้",
-      "DRAG_DROP": "ลากเเละปล่อยที่นี่เพื่อเพิ่ม",
+      "DRAG_DROP": "ลากและปล่อยที่นี่เพื่อเพิ่ม",
       "START_AUDIO_RECORDING": "เริ่มบันทึกเสียง",
       "STOP_AUDIO_RECORDING": "หยุดบันทึกเสียง",
       "": "",
@@ -237,13 +237,13 @@
       }
     },
     "VISIBLE_TO_AGENTS": "โน้ตส่วนตัว: มีเพียงคุณและทีมเท่านั้นที่มองเห็นได้",
-    "CHANGE_STATUS": "สถานะการสนทนามีการเปลี่ยนเเปลง",
+    "CHANGE_STATUS": "สถานะการสนทนามีการเปลี่ยนแปลง",
     "CHANGE_STATUS_FAILED": "เปลี่ยนสถานะของบทสนทนาไม่สำเร็จ",
     "CHANGE_AGENT": "ผู้ได้รับมอบหมายการสนทนานี้มีการเปลี่ยนแปลง",
     "CHANGE_AGENT_FAILED": "Assignee change failed",
     "ASSIGN_LABEL_SUCCESFUL": "Label assigned successfully",
     "ASSIGN_LABEL_FAILED": "Label assignment failed",
-    "CHANGE_TEAM": "เปลี่ยนทีมการสนทนาเเล้ว",
+    "CHANGE_TEAM": "เปลี่ยนทีมการสนทนาแล้ว",
     "SUCCESS_DELETE_CONVERSATION": "Conversation deleted successfully",
     "FAIL_DELETE_CONVERSATION": "Couldn't delete conversation! Try again",
     "FILE_SIZE_LIMIT": "ไฟล์ของคุณมีขนาดเกิน {MAXIMUM_SUPPORTED_FILE_UPLOAD_SIZE} MB",
@@ -275,16 +275,6 @@
     "SIDEBAR": {
       "CONTACT": "ผู้ติดต่อ",
       "COPILOT": "Copilot"
-    },
-    "VOICE_WIDGET": {
-      "INCOMING_CALL": "Incoming call",
-      "OUTGOING_CALL": "Outgoing call",
-      "CALL_IN_PROGRESS": "Call in progress",
-      "NOT_ANSWERED_YET": "Not answered yet",
-      "HANDLED_IN_ANOTHER_TAB": "Being handled in another tab",
-      "REJECT_CALL": "Reject",
-      "JOIN_CALL": "Join call",
-      "END_CALL": "End call"
     }
   },
   "EMAIL_TRANSCRIPT": {
@@ -292,7 +282,7 @@
     "DESC": "ส่งสำเนาบันทึกการสนทนาไปยังที่อยู่อีเมลที่ระบุ",
     "SUBMIT": "ส่ง",
     "CANCEL": "ยกเลิก",
-    "SEND_EMAIL_SUCCESS": "บันทึกการสนทนาได้ถูกส่งเเล้ว",
+    "SEND_EMAIL_SUCCESS": "บันทึกการสนทนาได้ถูกส่งแล้ว",
     "SEND_EMAIL_ERROR": "เกิดข้อผิดพลาดกรุณาลองใหม่อีกครั้ง",
     "FORM": {
       "SEND_TO_CONTACT": "ส่งบันทึกการสนทนาให้ลูกค้า",
@@ -306,7 +296,7 @@
   },
   "ONBOARDING": {
     "TITLE": "สวัสดี 👋, ยินดีต้อนรับเข้าสู่ {installationName}!",
-    "DESCRIPTION": "ขอบคุณสำหรับการสมัคร เราอยากให้คุณได้ใช้งาน {installationName} อย่างเต็มที่ เเละนี่คือสิ่งเล็กน้อยที่คุณสามารถทำได้ใน {installationName} เพื่อประสบการณ์การใช้งานที่ดียิ่งขึ้น",
+    "DESCRIPTION": "ขอบคุณสำหรับการสมัคร เราอยากให้คุณได้ใช้งาน {installationName} อย่างเต็มที่ และนี่คือสิ่งเล็กน้อยที่คุณสามารถทำได้ใน {installationName} เพื่อประสบการณ์การใช้งานที่ดียิ่งขึ้น",
     "GREETING_MORNING": "👋 Good morning, {name}. Welcome to {installationName}.",
     "GREETING_AFTERNOON": "👋 Good afternoon, {name}. Welcome to {installationName}.",
     "GREETING_EVENING": "👋 Good evening, {name}. Welcome to {installationName}.",

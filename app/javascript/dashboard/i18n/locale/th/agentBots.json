@@ -52,7 +52,7 @@
       }
     },
     "EDIT": {
-      "BUTTON_TEXT": "เเก้ไข",
+      "BUTTON_TEXT": "แก้ไข",
       "TITLE": "Edit bot",
       "API": {
         "SUCCESS_MESSAGE": "Bot updated successfully.",

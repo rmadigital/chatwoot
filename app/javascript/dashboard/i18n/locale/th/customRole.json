@@ -66,7 +66,7 @@
       }
     },
     "EDIT": {
-      "BUTTON_TEXT": "เเก้ไข",
+      "BUTTON_TEXT": "แก้ไข",
       "TITLE": "Edit custom role",
       "DESC": " Custom roles allows you to create roles with specific permissions and access levels to suit the requirements of the organization.",
       "SUBMIT": "อัพเดท",

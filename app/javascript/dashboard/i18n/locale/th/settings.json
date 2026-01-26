@@ -12,7 +12,7 @@
     "FORM": {
       "PICTURE": "Profile Picture",
       "AVATAR": "รูปโปรไฟล์",
-      "ERROR": "กรุณาเเก้ไขข้อผิดพลาดในเเบบฟอร์ม",
+      "ERROR": "กรุณาแก้ไขข้อผิดพลาดในแบบฟอร์ม",
       "REMOVE_IMAGE": "ลบรูปภาพ",
       "UPLOAD_IMAGE": "อัปโหลดรูปภาพ",
       "UPDATE_IMAGE": "อัปเดตรูปภาพ",
@@ -264,7 +264,7 @@
     "CODE": {
       "BUTTON_TEXT": "คัดลอก",
       "CODEPEN": "Open in CodePen",
-      "COPY_SUCCESSFUL": "คัดลอกไปยังคลิปบอร์ดเเล้ว"
+      "COPY_SUCCESSFUL": "คัดลอกไปยังคลิปบอร์ดแล้ว"
     },
     "SHOW_MORE_BLOCK": {
       "SHOW_MORE": "แสดงเพิ่มเติม",
@@ -460,7 +460,7 @@
         "LABEL": "Fingerprint",
         "TOOLTIP": "SHA-1 fingerprint of the certificate - Use this to verify the certificate in your IdP configuration"
       },
-      "COPY_SUCCESS": "คัดลอกไปยังคลิปบอร์ดเเล้ว",
+      "COPY_SUCCESS": "คัดลอกไปยังคลิปบอร์ดแล้ว",
       "SP_ENTITY_ID": {
         "LABEL": "SP Entity ID",
         "HELP": "Unique identifier for this application as a service provider (auto-generated).",
@@ -580,7 +580,7 @@
           "ACTIVE": "ใช้งานอยู่",
           "INACTIVE": "Inactive",
           "POPOVER": "Added inboxes",
-          "EDIT": "เเก้ไข"
+          "EDIT": "แก้ไข"
         },
         "NO_RECORDS_FOUND": "No assignment policies found"
       },
@@ -691,7 +691,7 @@
         },
         "CARD": {
           "POPOVER": "Added agents",
-          "EDIT": "เเก้ไข"
+          "EDIT": "แก้ไข"
         },
         "NO_RECORDS_FOUND": "No agent capacity policies found"
       },

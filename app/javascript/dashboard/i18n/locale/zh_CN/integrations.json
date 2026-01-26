@@ -42,6 +42,7 @@
             "WEBWIDGET_TRIGGERED": "用户打开实时聊天小部件",
             "CONTACT_CREATED": "联系人已创建",
             "CONTACT_UPDATED": "联系人已更新",
+            "CONTACT_SEND_TO_ODOO": "Contact send to Odoo",
             "CONVERSATION_TYPING_ON": "对话输入开启",
             "CONVERSATION_TYPING_OFF": "对话输入关闭"
           }

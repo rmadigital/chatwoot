@@ -42,6 +42,7 @@
             "WEBWIDGET_TRIGGERED": "Віджет онлайн чату відкрий користувачем",
             "CONTACT_CREATED": "Контакт створено",
             "CONTACT_UPDATED": "Контакт оновлено",
+            "CONTACT_SEND_TO_ODOO": "Contact send to Odoo",
             "CONVERSATION_TYPING_ON": "Conversation Typing On",
             "CONVERSATION_TYPING_OFF": "Conversation Typing Off"
           }

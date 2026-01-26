@@ -42,6 +42,7 @@
             "WEBWIDGET_TRIGGERED": "Widget de xat en directe obert per l'usuari",
             "CONTACT_CREATED": "Contacte creat",
             "CONTACT_UPDATED": "Contacte actualitzat",
+            "CONTACT_SEND_TO_ODOO": "Contact send to Odoo",
             "CONVERSATION_TYPING_ON": "Conversation Typing On",
             "CONVERSATION_TYPING_OFF": "Conversation Typing Off"
           }

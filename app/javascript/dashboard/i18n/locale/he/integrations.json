@@ -42,6 +42,7 @@
             "WEBWIDGET_TRIGGERED": "ווידג'ט צ'אט חי נפתח על ידי המשתמש",
             "CONTACT_CREATED": "צור קשר",
             "CONTACT_UPDATED": "איש קשר עודכן",
+            "CONTACT_SEND_TO_ODOO": "Contact send to Odoo",
             "CONVERSATION_TYPING_ON": "הקלדה בשיחה מופעלת",
             "CONVERSATION_TYPING_OFF": "הקלדה בשיחה מושבתת"
           }

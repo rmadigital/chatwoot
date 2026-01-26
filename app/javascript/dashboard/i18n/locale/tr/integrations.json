@@ -42,6 +42,7 @@
             "WEBWIDGET_TRIGGERED": "Kullanıcı tarafından canlı sohbet widget'ı açıldı",
             "CONTACT_CREATED": "Kişi Oluşturuldu",
             "CONTACT_UPDATED": "Kişi Güncellendi",
+            "CONTACT_SEND_TO_ODOO": "Contact send to Odoo",
             "CONVERSATION_TYPING_ON": "Konuşmada Yazıyor Açık",
             "CONVERSATION_TYPING_OFF": "Konuşmada Yazıyor Kapalı"
           }

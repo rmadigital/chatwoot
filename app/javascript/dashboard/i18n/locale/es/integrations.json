@@ -42,6 +42,7 @@
             "WEBWIDGET_TRIGGERED": "Widget de Live Chat abierto por el usuario",
             "CONTACT_CREATED": "Contacto creado",
             "CONTACT_UPDATED": "Contacto actualizado",
+            "CONTACT_SEND_TO_ODOO": "Contact send to Odoo",
             "CONVERSATION_TYPING_ON": "Conversation Typing On",
             "CONVERSATION_TYPING_OFF": "Conversation Typing Off"
           }

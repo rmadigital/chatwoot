@@ -4,7 +4,7 @@
     "EMAIL_ADDRESS": "ที่อยู่อีเมล์",
     "PHONE_NUMBER": "หมายเลขโทรศัพท์",
     "IDENTIFIER": "ตัวระบุ",
-    "COPY_SUCCESSFUL": "คัดลอกไปยังคริปบอร์ดเเล้ว",
+    "COPY_SUCCESSFUL": "คัดลอกไปยังคริปบอร์ดแล้ว",
     "COMPANY": "บริษัท",
     "LOCATION": "สถานที่",
     "BROWSER_LANGUAGE": "ภาษาของเบราว์เซอร์",
@@ -49,8 +49,8 @@
     "UNMUTE_CONTACT": "Unblock Contact",
     "MUTED_SUCCESS": "This contact is blocked successfully. You will not be notified of any future conversations.",
     "UNMUTED_SUCCESS": "This contact is unblocked successfully.",
-    "SEND_TRANSCRIPT": "ส่งประวัติเเชท",
-    "EDIT_LABEL": "เเก้ไข",
+    "SEND_TRANSCRIPT": "ส่งประวัติแชท",
+    "EDIT_LABEL": "แก้ไข",
     "SIDEBAR_SECTIONS": {
       "CUSTOM_ATTRIBUTES": "แอตทริบิวต์ที่กำหนดเอง",
       "CONTACT_LABELS": "ป้ายกำกับผู้ติดต่อ",
@@ -59,9 +59,9 @@
     }
   },
   "EDIT_CONTACT": {
-    "BUTTON_LABEL": "เเก้ไขผู้ติดต่อ",
-    "TITLE": "เเก้ไขผู้ติดต่อ",
-    "DESC": "เเห้ไขรายละเอียดผู้ติดต่อ"
+    "BUTTON_LABEL": "แก้ไขผู้ติดต่อ",
+    "TITLE": "แก้ไขผู้ติดต่อ",
+    "DESC": "แก้ไขรายละเอียดผู้ติดต่อ"
   },
   "DELETE_CONTACT": {
     "BUTTON_LABEL": "ลบผู้ติดต่อ",
@@ -96,16 +96,16 @@
       "EMAIL_ADDRESS": {
         "PLACEHOLDER": "กรอกที่อยู่อีเมล์ผู้ติดต่อ",
         "LABEL": "ที่อยู่อีเมล์",
-        "DUPLICATE": "อีเมล์นี้ถูกใช้ในผู้ติดต่อคนอื่นเเล้ว",
+        "DUPLICATE": "อีเมล์นี้ถูกใช้ในผู้ติดต่อคนอื่นแล้ว",
         "ERROR": "กรุณากรอกที่อยู่อีเมล์ให้ถูกต้อง."
       },
       "PHONE_NUMBER": {
         "PLACEHOLDER": "กรอกหมายเลขโทรศัพท์ผู้ติดต่อ",
         "LABEL": "หมายเลขโทรศัพท์",
         "HELP": "Phone number should be of E.164 format eg: +1415555555 [+][country code][area code][local phone number]. You can select the dial code from the dropdown.",
-        "ERROR": "หมายเลขโทรศัพท์ควรจะว่างปล่าวหรืออยู่ในรู้เเบบ E.164",
+        "ERROR": "หมายเลขโทรศัพท์ควรจะว่างปล่าวหรืออยู่ในรู้แบบ E.164",
         "DIAL_CODE_ERROR": "Please select a dial code from the list",
-        "DUPLICATE": "หมายเลขนี้ถูกใช้สำหรับผู้ติดต่อคนอื่นเเล้ว"
+        "DUPLICATE": "หมายเลขนี้ถูกใช้สำหรับผู้ติดต่อคนอื่นแล้ว"
       },
       "LOCATION": {
         "PLACEHOLDER": "กรอกที่อยู่ผู้ติดต่อ",
@@ -151,7 +151,7 @@
         "ERROR_MESSAGE": "ไม่สามารถลบรูปของผู้ติดต่อได้ กรุณาลองใหม่ภายหลัง"
       }
     },
-    "SUCCESS_MESSAGE": "สร้างการติดต่อเรียบร้อยเเล้ว",
+    "SUCCESS_MESSAGE": "สร้างการติดต่อเรียบร้อยแล้ว",
     "ERROR_MESSAGE": "เกิดข้อผิดพลาดกรุณาลองใหม่อีกครั้ง"
   },
   "NEW_CONVERSATION": {
@@ -184,7 +184,7 @@
       },
       "SUBMIT": "ส่วข้อความ",
       "CANCEL": "ยกเลิก",
-      "SUCCESS_MESSAGE": "ส่งข้อความเเล้ว",
+      "SUCCESS_MESSAGE": "ส่งข้อความแล้ว",
       "GO_TO_CONVERSATION": "ดู",
       "ERROR_MESSAGE": "ไม่สามารถส่งข้อความได้กรุณาลองอีกครั้ง"
     }
@@ -197,8 +197,8 @@
     }
   },
   "CUSTOM_ATTRIBUTES": {
-    "BUTTON": "เพิ่มแอตทริบิวต์เเบบกำหนดเอง",
-    "COPY_SUCCESSFUL": "คัดลอกไปยังคริปบอร์ดเเล้ว",
+    "BUTTON": "เพิ่มแอตทริบิวต์แบบกำหนดเอง",
+    "COPY_SUCCESSFUL": "คัดลอกไปยังคริปบอร์ดแล้ว",
     "SHOW_MORE": "Show all attributes",
     "SHOW_LESS": "Show less attributes",
     "ACTIONS": {
@@ -207,16 +207,16 @@
       "EDIT": "แก้ไขแอตทริบิวต์"
     },
     "ADD": {
-      "TITLE": "สร้างแอตทริบิวต์เเบบกำหนดเอง",
+      "TITLE": "สร้างแอตทริบิวต์แบบกำหนดเอง",
       "DESC": "เพิ่มข้อมูลแอตทริบิวต์ในผู้ติดต่อนี้"
     },
     "FORM": {
       "CREATE": "เพิ่มแอตทริบิวต์",
       "CANCEL": "ยกเลิก",
       "NAME": {
-        "LABEL": "ชื่อแอตทริบิวต์เเบบกำหนดเอง",
+        "LABEL": "ชื่อแอตทริบิวต์แบบกำหนดเอง",
         "PLACEHOLDER": "เช่น ไอดีผู้ใช้",
-        "ERROR": "แอตทริบิวต์เเบบกำหนดเองไม่ถูกต้อง"
+        "ERROR": "แอตทริบิวต์แบบกำหนดเองไม่ถูกต้อง"
       },
       "VALUE": {
         "LABEL": "ค่าของแอตทริบิวต์",
@@ -280,7 +280,7 @@
       "CHILD_CONTACT": {
         "ERROR": "เลือกผู้ติดต่อที่จะรวมเข้าด้วยกัน"
       },
-      "SUCCESS_MESSAGE": "รวมผู้ติดต่อสำเร็จเเล้ว",
+      "SUCCESS_MESSAGE": "รวมผู้ติดต่อสำเร็จแล้ว",
       "ERROR_MESSAGE": "ไม่สามารถรวมผู้ติดต่อได้ โปรดลองใหม่อีกครั้ง!"
     },
     "DROPDOWN_ITEM": {
@@ -306,9 +306,9 @@
           "EXPORT_CONTACT": "Export contacts",
           "IMPORT_CONTACT": "Import contacts",
           "SAVE_CONTACT": "Save contact",
-          "EMAIL_ADDRESS_DUPLICATE": "อีเมล์นี้ถูกใช้ในผู้ติดต่อคนอื่นเเล้ว",
-          "PHONE_NUMBER_DUPLICATE": "หมายเลขนี้ถูกใช้สำหรับผู้ติดต่อคนอื่นเเล้ว",
-          "SUCCESS_MESSAGE": "สร้างการติดต่อเรียบร้อยเเล้ว",
+          "EMAIL_ADDRESS_DUPLICATE": "อีเมล์นี้ถูกใช้ในผู้ติดต่อคนอื่นแล้ว",
+          "PHONE_NUMBER_DUPLICATE": "หมายเลขนี้ถูกใช้สำหรับผู้ติดต่อคนอื่นแล้ว",
+          "SUCCESS_MESSAGE": "สร้างการติดต่อเรียบร้อยแล้ว",
           "ERROR_MESSAGE": "Unable to save contact. Please try again later."
         },
         "BLOCK_SUCCESS_MESSAGE": "This contact is blocked successfully",
@@ -412,7 +412,7 @@
       "OF": "of",
       "VIEW_DETAILS": "ดูรายละเอียด",
       "EDIT_DETAILS_FORM": {
-        "TITLE": "เเห้ไขรายละเอียดผู้ติดต่อ",
+        "TITLE": "แก้ไขรายละเอียดผู้ติดต่อ",
         "FORM": {
           "FIRST_NAME": {
             "PLACEHOLDER": "Enter the first name"
@@ -422,11 +422,11 @@
           },
           "EMAIL_ADDRESS": {
             "PLACEHOLDER": "Enter the email address",
-            "DUPLICATE": "อีเมล์นี้ถูกใช้ในผู้ติดต่อคนอื่นเเล้ว"
+            "DUPLICATE": "อีเมล์นี้ถูกใช้ในผู้ติดต่อคนอื่นแล้ว"
           },
           "PHONE_NUMBER": {
             "PLACEHOLDER": "Enter the phone number",
-            "DUPLICATE": "หมายเลขนี้ถูกใช้สำหรับผู้ติดต่อคนอื่นเเล้ว"
+            "DUPLICATE": "หมายเลขนี้ถูกใช้สำหรับผู้ติดต่อคนอื่นแล้ว"
           },
           "CITY": {
             "PLACEHOLDER": "Enter the city name"
@@ -545,7 +545,7 @@
         "PLACEHOLDER": "Search for primary contact",
         "SEARCH_PLACEHOLDER": "ค้นหาผู้ติดต่อ",
         "SEARCH_ERROR_MESSAGE": "Could not search for contacts. Please try again later.",
-        "SUCCESS_MESSAGE": "รวมผู้ติดต่อสำเร็จเเล้ว",
+        "SUCCESS_MESSAGE": "รวมผู้ติดต่อสำเร็จแล้ว",
         "ERROR_MESSAGE": "ไม่สามารถรวมผู้ติดต่อได้ โปรดลองใหม่อีกครั้ง!",
         "IS_SEARCHING": "Searching...",
         "BUTTONS": {

@@ -54,7 +54,7 @@
         },
         "SUBMIT": "ส่ง"
       },
-      "BUTTON_TEXT": "เเก้ไข",
+      "BUTTON_TEXT": "แก้ไข",
       "API": {
         "SUCCESS_MESSAGE": "Canned response is updated successfully.",
         "ERROR_MESSAGE": "Could not connect to Woot server. Please try again."

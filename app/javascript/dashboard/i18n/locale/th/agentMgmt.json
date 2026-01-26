@@ -6,7 +6,7 @@
     "DESCRIPTION": "An agent is a member of your customer support team who can view and respond to user messages. The list below shows all the agents in your account.",
     "LEARN_MORE": "Learn about user roles",
     "AGENT_TYPES": {
-      "ADMINISTRATOR": "ผู้ดูเเล",
+      "ADMINISTRATOR": "ผู้ดูแล",
       "AGENT": "พนักงาน"
     },
     "LIST": {
@@ -17,7 +17,7 @@
       "EMAIL": "อีเมล์",
       "STATUS": "สถานะ",
       "ACTIONS": "การกระทำ",
-      "VERIFIED": "ยืนยันเเล้ว",
+      "VERIFIED": "ยืนยันแล้ว",
       "VERIFICATION_PENDING": "รอการยืนยัน",
       "AVAILABLE_CUSTOM_ROLE": "Available custom role permissions"
     },
@@ -43,7 +43,7 @@
       },
       "API": {
         "SUCCESS_MESSAGE": "เพิ่มพนักงานสำเร็จแล้ว",
-        "EXIST_MESSAGE": "อีเมล์นี้ถูกใช้เเล้วโปรดลองใช้อีเมล์อื่น",
+        "EXIST_MESSAGE": "อีเมล์นี้ถูกใช้แล้วโปรดลองใช้อีเมล์อื่น",
         "ERROR_MESSAGE": "ไม่สามารถเชื่อมต่อเซิฟเวอร์ได้ โปรดลองอีกครั้งในภายหลัง"
       }
     },
@@ -61,7 +61,7 @@
       }
     },
     "EDIT": {
-      "TITLE": "เเก้ไขพนักงาน",
+      "TITLE": "แก้ไขพนักงาน",
       "FORM": {
         "NAME": {
           "LABEL": "ชื่อพนักงาน",
@@ -81,9 +81,9 @@
           "PLACEHOLDER": "Please select an availability status",
           "ERROR": "Availability is required"
         },
-        "SUBMIT": "เเก้ไขพนักงาน"
+        "SUBMIT": "แก้ไขพนักงาน"
       },
-      "BUTTON_TEXT": "เเก้ไข",
+      "BUTTON_TEXT": "แก้ไข",
       "CANCEL_BUTTON_TEXT": "ยกเลิก",
       "API": {
         "SUCCESS_MESSAGE": "อัพเดทพนักงานเสร็จสิ้น",
@@ -91,8 +91,8 @@
       },
       "PASSWORD_RESET": {
         "ADMIN_RESET_BUTTON": "รีเซ็ตหรัสผ่าน",
-        "ADMIN_SUCCESS_MESSAGE": "อีเมล์เเละวิธีการรีเซ็ตหรัสผ่านได้ส่งไปที่พนักงานเเล้ว",
-        "SUCCESS_MESSAGE": "พนักงานรีเซ็ตหรัสผ่านเเล้ว",
+        "ADMIN_SUCCESS_MESSAGE": "อีเมล์และวิธีการรีเซ็ตหรัสผ่านได้ส่งไปที่พนักงานแล้ว",
+        "SUCCESS_MESSAGE": "พนักงานรีเซ็ตหรัสผ่านแล้ว",
         "ERROR_MESSAGE": "ไม่สามารถเชื่อมต่อเซิฟเวอร์ได้โปรดลองอีกครั้งในภายหลัง"
       }
     },

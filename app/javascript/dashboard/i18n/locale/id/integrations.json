@@ -42,6 +42,7 @@
             "WEBWIDGET_TRIGGERED": "Widget obrolan langsung dibuka oleh pengguna",
             "CONTACT_CREATED": "Kontak dibuat",
             "CONTACT_UPDATED": "Kontak diperbarui",
+            "CONTACT_SEND_TO_ODOO": "Contact send to Odoo",
             "CONVERSATION_TYPING_ON": "Conversation Typing On",
             "CONVERSATION_TYPING_OFF": "Conversation Typing Off"
           }

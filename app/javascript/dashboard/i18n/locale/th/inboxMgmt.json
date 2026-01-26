@@ -17,7 +17,7 @@
       },
       "INBOX": {
         "TITLE": "สร้างกล่องข้อความ",
-        "BODY": "ตรวจสอบบัญชีของคุณเเละสร้างกล่องข้อความ"
+        "BODY": "ตรวจสอบบัญชีของคุณและสร้างกล่องข้อความ"
       },
       "AGENT": {
         "TITLE": "เพิ่มพนักงาน",
@@ -25,7 +25,7 @@
       },
       "FINISH": {
         "TITLE": "Voilà!",
-        "BODY": "คุณพร้อมเเล้ว"
+        "BODY": "คุณพร้อมแล้ว"
       }
     },
     "ADD": {
@@ -73,7 +73,7 @@
       },
       "WEBSITE_CHANNEL": {
         "TITLE": "ช่องเว็บไซต์",
-        "DESC": "สร้างช่องสำหรับเว็บของคุณเเละเริ่มที่จะช่วยเหลือลูกค้าของคุณด้วยวิดเจ็ต",
+        "DESC": "สร้างช่องสำหรับเว็บของคุณและเริ่มที่จะช่วยเหลือลูกค้าของคุณด้วยวิดเจ็ต",
         "LOADING_MESSAGE": "กำลังสร้างช่องช่วยเหลือสำหรับเว็บไซต์",
         "CHANNEL_AVATAR": {
           "LABEL": "รูปของช่อง"
@@ -355,7 +355,7 @@
       },
       "API_CHANNEL": {
         "TITLE": "ช่อง API",
-        "DESC": "สร้างช่องด้วย API เเละเริ่มช่วยเหลือลูกค้าของคุณ",
+        "DESC": "สร้างช่องด้วย API และเริ่มช่วยเหลือลูกค้าของคุณ",
         "CHANNEL_NAME": {
           "LABEL": "ชื่อช่อง",
           "PLACEHOLDER": "กรุณากรอกชื่อช่อง",
@@ -808,35 +808,6 @@
         "LABEL": "ข้อความ",
         "PLACEHOLDER": "Please enter a message to show users with the form"
       },
-      "BUTTON_TEXT": {
-        "LABEL": "Button text",
-        "PLACEHOLDER": "Please rate us"
-      },
-      "LANGUAGE": {
-        "LABEL": "Language",
-        "PLACEHOLDER": "Select template language"
-      },
-      "MESSAGE_PREVIEW": {
-        "LABEL": "Message preview",
-        "TOOLTIP": "This may vary slightly when rendered on WhatsApp's platform."
-      },
-      "TEMPLATE_STATUS": {
-        "APPROVED": "Approved by WhatsApp",
-        "PENDING": "Pending WhatsApp approval",
-        "REJECTED": "Meta rejected the template",
-        "DEFAULT": "Needs WhatsApp approval",
-        "NOT_FOUND": "The template does not exist in the Meta platform."
-      },
-      "TEMPLATE_CREATION": {
-        "SUCCESS_MESSAGE": "WhatsApp template created successfully and sent for approval",
-        "ERROR_MESSAGE": "Failed to create WhatsApp template"
-      },
-      "TEMPLATE_UPDATE_DIALOG": {
-        "TITLE": "Edit survey details",
-        "DESCRIPTION": "We will delete the previous template and make a new one which will be sent again for WhatsApp approval",
-        "CONFIRM": "Create new template",
-        "CANCEL": "Go back"
-      },
       "SURVEY_RULE": {
         "LABEL": "Survey rule",
         "DESCRIPTION_PREFIX": "Send the survey if the conversation",
@@ -848,7 +819,6 @@
         "SELECT_PLACEHOLDER": "select labels"
       },
       "NOTE": "Note: CSAT surveys are sent only once per conversation",
-      "WHATSAPP_NOTE": "Note: We will create a template and send it for WhatsApp approval. After being approved, surveys will be sent only once per conversation as per the survey rule.",
       "API": {
         "SUCCESS_MESSAGE": "CSAT settings updated successfully",
         "ERROR_MESSAGE": "We couldn't update CSAT settings. Please try again later."

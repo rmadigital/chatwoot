@@ -42,6 +42,7 @@
             "WEBWIDGET_TRIGGERED": "Tiesioginio pokalbio valdiklis, kurį atidarė vartotojas",
             "CONTACT_CREATED": "Sukurtas kontaktas",
             "CONTACT_UPDATED": "Kontaktas atnaujintas",
+            "CONTACT_SEND_TO_ODOO": "Contact send to Odoo",
             "CONVERSATION_TYPING_ON": "Conversation Typing On",
             "CONVERSATION_TYPING_OFF": "Conversation Typing Off"
           }

@@ -756,7 +756,7 @@
           "DESCRIPTION": "You can host your portal on a custom domain. For instance, if your website is yourdomain.com and you want your portal available at docs.yourdomain.com, simply enter that in this field.",
           "STATUS_DESCRIPTION": "Your custom portal will start working as soon as it is verified.",
           "PLACEHOLDER": "Portal custom domain",
-          "EDIT_BUTTON": "เเก้ไข",
+          "EDIT_BUTTON": "แก้ไข",
           "ADD_BUTTON": "Add custom domain",
           "STATUS": {
             "LIVE": "ขณะนี้",

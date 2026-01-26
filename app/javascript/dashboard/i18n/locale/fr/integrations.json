@@ -42,6 +42,7 @@
             "WEBWIDGET_TRIGGERED": "Widget de discussion instantanée ouvert par l'utilisateur",
             "CONTACT_CREATED": "Contact créé",
             "CONTACT_UPDATED": "Contact mis à jour",
+            "CONTACT_SEND_TO_ODOO": "Contact send to Odoo",
             "CONVERSATION_TYPING_ON": "Saisie de conversation activée",
             "CONVERSATION_TYPING_OFF": "Saisie de conversation désactivée"
           }

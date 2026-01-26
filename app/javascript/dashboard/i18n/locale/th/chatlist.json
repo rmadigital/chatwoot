@@ -2,7 +2,7 @@
   "CHAT_LIST": {
     "LOADING": "กำลังโหลดการสนทนา",
     "LOAD_MORE_CONVERSATIONS": "โหลดการสนทนาเพิ่มเติม",
-    "EOF": "การสนทนาทั้งหมดถูกโหลดมาเเล้วนะ 🎉",
+    "EOF": "การสนทนาทั้งหมดถูกโหลดมาแล้วนะ 🎉",
     "LIST": {
       "404": "ไม่มีการสนทนาที่ใช้งานในกลุ่มนี้"
     },
@@ -11,7 +11,7 @@
     "MENTION_HEADING": "กล่าวถึง",
     "UNATTENDED_HEADING": "ไม่ได้เข้าร่วม",
     "SEARCH": {
-      "INPUT": "ค้นหาผู้คน, เเชท, หรือการตอบกลับ"
+      "INPUT": "ค้นหาผู้คน, แชท, หรือการตอบกลับ"
     },
     "FILTER_ALL": "ทั้งหมด",
     "ASSIGNEE_TYPE_TABS": {
@@ -89,7 +89,7 @@
         "CONTENT": "ข้อความวิดิโอ"
       },
       "file": {
-        "CONTENT": "เเนบไฟล์"
+        "CONTENT": "แนบไฟล์"
       },
       "location": {
         "CONTENT": "สถานที่"
@@ -98,7 +98,7 @@
         "CONTENT": "Instagram Reel"
       },
       "fallback": {
-        "CONTENT": "ได้เเชร์ลิ้ง"
+        "CONTENT": "ได้แชร์ลิ้ง"
       },
       "contact": {
         "CONTENT": "Shared contact"

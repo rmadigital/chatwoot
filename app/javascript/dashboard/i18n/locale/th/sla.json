@@ -70,7 +70,7 @@
       "THRESHOLD_TIME": {
         "INVALID_FORMAT_ERROR": "Threshold should be a number and greater than zero"
       },
-      "EDIT": "เเก้ไข",
+      "EDIT": "แก้ไข",
       "CREATE": "สร้าง",
       "DELETE": "ลบ",
       "CANCEL": "ยกเลิก"

@@ -12,7 +12,7 @@
     "DISMISS": "Dismiss",
     "UPDATE": {
       "ERROR": "ไม่สามารถอัพเดทการตั้งค่าได้ ลองอีกครั้งสิ",
-      "SUCCESS": "อัพเดทการตั้งค่าบัญชีเเล้ว"
+      "SUCCESS": "อัพเดทการตั้งค่าบัญชีแล้ว"
     },
     "ACCOUNT_DELETE_SECTION": {
       "TITLE": "Delete your Account",
@@ -35,7 +35,7 @@
       }
     },
     "FORM": {
-      "ERROR": "กรุณาเเก้ไขข้อผิดพลาดในเเบบฟอร์ม",
+      "ERROR": "กรุณาแก้ไขข้อผิดพลาดในแบบฟอร์ม",
       "GENERAL_SECTION": {
         "TITLE": "ตั้งค่าทั่วไป",
         "NOTE": ""
@@ -120,7 +120,7 @@
       },
       "FEATURES": {
         "INBOUND_EMAIL_ENABLED": "การสนทนาด้วยอีเมล์ถูกเปิดสำหรับบัญชีของคุณ",
-        "CUSTOM_EMAIL_DOMAIN_ENABLED": "คุณสามารถรับอีเมล์ในโดเมนเเบบกำหนดเองได้เเล้ว"
+        "CUSTOM_EMAIL_DOMAIN_ENABLED": "คุณสามารถรับอีเมล์ในโดเมนแบบกำหนดเองได้แล้ว"
       }
     },
     "UPDATE_CHATWOOT": "Chatwoot เวอร์ชั่น {latestChatwootVersion} พร้อมสำหรับการอัปเดต กรุณาอัปเดตเวอร์ชั่นของคุณ",

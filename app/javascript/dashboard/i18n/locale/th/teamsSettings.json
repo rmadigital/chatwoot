@@ -30,7 +30,7 @@
       },
       "WIZARD_FINISH": {
         "TITLE": "เสร็จสิ้น",
-        "BODY": "คุณพร้อมเเล้ว"
+        "BODY": "คุณพร้อมแล้ว"
       }
     },
     "EDIT_FLOW": {
@@ -50,14 +50,14 @@
         "BODY": "เปลี่ยนชื่อ คำอธิบาย และรายละเอียดอื่นๆ"
       },
       "EDIT_WIZARD_AGENTS": {
-        "TITLE": "เเก้ไขพนักงาน",
+        "TITLE": "แก้ไขพนักงาน",
         "ROUTE": "settings_teams_edit_members",
         "BODY": "แก้ไขพนักงานในทีมของคุณ"
       },
       "EDIT_WIZARD_FINISH": {
         "TITLE": "เสร็จสิ้น",
         "ROUTE": "settings_teams_edit_finish",
-        "BODY": "คุณพร้อมเเล้ว"
+        "BODY": "คุณพร้อมแล้ว"
       }
     },
     "TEAM_FORM": {

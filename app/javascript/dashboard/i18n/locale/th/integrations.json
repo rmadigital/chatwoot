@@ -42,6 +42,7 @@
             "WEBWIDGET_TRIGGERED": "Live chat widget ถูกเปิดโดยผู้ใช้งาน",
             "CONTACT_CREATED": "Contact created",
             "CONTACT_UPDATED": "Contact updated",
+            "CONTACT_SEND_TO_ODOO": "ส่งข้อมูลผู้ติดต่อไปยัง Odoo",
             "CONVERSATION_TYPING_ON": "Conversation Typing On",
             "CONVERSATION_TYPING_OFF": "Conversation Typing Off"
           }
@@ -74,7 +75,7 @@
         }
       },
       "EDIT": {
-        "BUTTON_TEXT": "เเก้ไข",
+        "BUTTON_TEXT": "แก้ไข",
         "TITLE": "แก้ไข Webhook",
         "API": {
           "SUCCESS_MESSAGE": "อัปเดตการตั้งค่า Webhook สำเร็จแล้ว",
@@ -928,7 +929,7 @@
       },
       "OPTIONS": {
         "APPROVE": "Approve",
-        "EDIT_RESPONSE": "เเก้ไข",
+        "EDIT_RESPONSE": "แก้ไข",
         "DELETE_RESPONSE": "ลบ"
       },
       "EMPTY_STATE": {
