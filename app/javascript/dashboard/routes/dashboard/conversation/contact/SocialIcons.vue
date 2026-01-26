@@ -16,6 +16,7 @@ export default {
         { key: 'instagram', icon: 'instagram', link: 'https://instagram.com/' },
         { key: 'telegram', icon: 'telegram', link: 'https://t.me/' },
         { key: 'tiktok', icon: 'tiktok', link: 'https://tiktok.com/@' },
+        { key: 'line', icon: 'line', link: 'https://line.me/ti/p/~' },
       ],
     };
   },
