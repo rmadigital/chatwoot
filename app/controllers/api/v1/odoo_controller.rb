@@ -190,7 +190,7 @@ class Api::V1::OdooController < Api::BaseController
           [
             {
               name: contact.name,
-              partner_id: contact.id,
+              partner_id: _partner_id,
               email_from: contact.email,
               phone: contact.phone_number,
               user_id: agent_id,
