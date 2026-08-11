@@ -18,6 +18,7 @@
 #  middle_name           :string           default("")
 #  name                  :string           default("")
 #  phone_number          :string
+#  sended_to_odoo        :boolean          default(FALSE), not null
 #  created_at            :datetime         not null
 #  updated_at            :datetime         not null
 #  account_id            :integer          not null
